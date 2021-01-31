@@ -2,6 +2,10 @@
 	box-sizing: border-box; 
 }
 
+li {
+	margin: 0 0 3px 0;
+}
+
 html{
 	scroll-behavior: smooth;
 }
@@ -23,6 +27,8 @@ h1, h2{
     margin: 0px;
    -webkit-margin-before: 20px;
    -webkit-margin-after: 20px;
+   font-size: 'Maven Pro', sans-serif; 
+   font-size: 64px;
 }
 
 a{
@@ -51,6 +57,7 @@ iframe{
 	background-image: url(twitch_photos/night.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	font-family:calibri,calibri,serif;
 
 }
 
@@ -65,6 +72,9 @@ iframe{
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
+	font-size: 8vw; 
+	font-family: 'Maven Pro'; 
+	color: #f5f2d0;
 }
 
 .container {
@@ -118,62 +128,24 @@ iframe{
 	display: flex;
 	margin-bottom: 40px;
 }
-.games{
+
+.boxes{
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 20px;
-	border-style: solid;
-	max-height: 500px;
-	max-width: 500px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	width: 50%;
-	display: inline-block;
-	text-align: center;
-	padding-bottom: 10px;
-	
-}
-.setup{
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 	border-style: solid;	
 	max-height: 600px;
 	max-width: 500px;
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	width: 50%;
 	display: inline-block;
 	text-align: center;
 	padding-bottom: 10px;
 }
-.faq{
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	border-style: solid;
-	max-height: 700px;
-	max-width: 500px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 10px;
-	width: 50%;
-	display: inline-block;
-	text-align: center;
-	padding-bottom: 10px;
-}
-.fan-art_pos{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	text-align: center;
-}
+
 .resource-pack{
 	font-family: calibri,calibri,serif;
 	font-size: 35px;
@@ -204,6 +176,7 @@ iframe{
 .video{
 	margin: auto;
 	width: 50%;
+	margin-bottom: 20px;
 }
 
 .cp-text{ 
