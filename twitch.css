@@ -28,10 +28,19 @@ h1, h2{
    -webkit-margin-before: 20px;
    -webkit-margin-after: 20px;
    font-size: 'Maven Pro', sans-serif; 
-   font-size: 64px;
+   font-size: 4.5vw;
 }
 
-a{
+h3 {
+	margin: 0px;
+   -webkit-margin-before: 20px;
+   -webkit-margin-after: 20px;
+   font-size: 'Maven Pro', sans-serif; 
+   font-size: 2.5vw;
+}
+
+
+a {
 	text-decoration: none;
 }
 
@@ -53,7 +62,7 @@ iframe{
 }
 
 #title {
-	height: 640px;
+	height: 28vw;
 	background-image: url(twitch_photos/night.jpg);
 	background-size: cover;
 	background-attachment: fixed;
@@ -72,7 +81,7 @@ iframe{
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
-	font-size: 8vw; 
+	font-size: 9vw; 
 	font-family: 'Maven Pro'; 
 	color: #f5f2d0;
 }
@@ -80,36 +89,9 @@ iframe{
 .container {
  	position: relative;
 }
-.format-about-heading-text{
-	font-family: 'calibri';
-	padding-left: 20px;
-	padding-right: 20px;
-	text-align: center;
-	max-width: 1400px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 40px;
-}
-
-.format-about-description{
-	font-family: 'calibri';
-	text-align: center;
-	max-width: 1200px;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 40px;
-}
 
 .center{
 	width: 50%;
-}
-
-.format_info{
-	width: 500px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .texture_pack{
@@ -118,46 +100,51 @@ iframe{
 	margin-right: auto;
 }
 
+.start {
+	justify-content: center;
+	display: flex;
+	font-family: 'Muli', sans-serif;
+	color: black;
+}
+
+.end {
+	justify-content: center;
+	display: flex;
+	font-family: 'Muli', sans-serif;
+	color: black;
+}
+
 .grid{
 	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
 	flex-wrap: wrap;
 	justify-content: center;
 	display: flex;
-	margin-bottom: 40px;
+	font-family: 'Muli', sans-serif;
+	color: black;
 }
 
 .boxes{
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 40px;
+	padding-top: 1vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
 	border-style: solid;	
-	max-height: 600px;
+	max-height: 800px;
 	max-width: 500px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-bottom: 1vw;
 	width: 50%;
 	display: inline-block;
 	text-align: center;
-	padding-bottom: 10px;
+	padding-bottom: 1vw;
 }
 
 .resource-pack{
 	font-family: calibri,calibri,serif;
-	font-size: 35px;
+	font-size: 2vw;
 	font-style: italic; 
 	text-decoration: none;
-	margin-bottom: 50px;
-}
-
-.cp-text{ 
-	color: rgba(0,0,0,.2); 
-	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
-	text-align: center;
+	margin-bottom: 1vw;
 }
 
 .navbar-links{
@@ -177,10 +164,4 @@ iframe{
 	margin: auto;
 	width: 50%;
 	margin-bottom: 20px;
-}
-
-.cp-text{ 
-	color: rgba(0,0,0,.7); 
-	text-shadow: 0 1px rgba(255, 255, 255, 0.1);
-	text-align: center;
 }
