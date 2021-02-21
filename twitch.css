@@ -94,10 +94,15 @@ iframe{
 	width: 50%;
 }
 
-.texture_pack{
+.texture-pack{
 	width: 750px;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: 'Maven Pro'; 
+	text-align: center;
+	font-size: 2vw; 
+	text-decoration: none;
+	margin-bottom: 2vw;
 }
 
 .start {
@@ -137,14 +142,6 @@ iframe{
 	display: inline-block;
 	text-align: center;
 	padding-bottom: 1vw;
-}
-
-.resource-pack{
-	font-family: calibri,calibri,serif;
-	font-size: 2vw;
-	font-style: italic; 
-	text-decoration: none;
-	margin-bottom: 1vw;
 }
 
 .navbar-links{
