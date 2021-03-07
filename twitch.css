@@ -26,9 +26,10 @@ body{
 h1, h2{
     margin: 0px;
    -webkit-margin-before: 20px;
-   -webkit-margin-after: 20px;
-   font-size: 'Maven Pro', sans-serif; 
+   -webkit-margin-after: 20px; 
    font-size: 4.5vw;
+   text-align: center; 
+   font-family:'Muli';  
 }
 
 h3 {
@@ -161,4 +162,8 @@ iframe{
 	margin: auto;
 	width: 50%;
 	margin-bottom: 20px;
+}
+
+.donate{
+
 }
