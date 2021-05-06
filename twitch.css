@@ -106,7 +106,7 @@ iframe{
 	flex-wrap: wrap;
 	justify-content: center;
 	display: flex;
-	font-family: 'Muli', sans-serif;
+	font-family: 'Muli';
 	color: black;
 }
 
