@@ -7,37 +7,11 @@ a + a {
 	text-decoration: none;
   }
   
-ul {
-	text-align: center;
-	list-style-position: inside;
-}
-
-p {
-	margin: 5px 0 5px 0;
-}
-
 html , body{
 	font-family: 'Maven Pro'; 
 	scroll-behavior: smooth;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-
-h1, h2{
-    margin: 0px;
-   -webkit-margin-before: 20px;
-   -webkit-margin-after: 20px; 
-   font-size: 4.5vw;
-}
-
-h3 {
-	margin: 0px;
-   -webkit-margin-before: 20px;
-   -webkit-margin-after: 20px;
-   font-size: 2.5vw;
+	background: rgb(207,120,224);
+	background: linear-gradient(90deg, rgba(207,120,224,1) 25%, rgba(100,249,179,1) 100%);
 }
 
 iframe{
@@ -51,11 +25,6 @@ iframe{
 	background-attachment: fixed;
 }
 
-.background-gradient{
-	background: rgb(207,120,224);
-	background: linear-gradient(90deg, rgba(207,120,224,1) 25%, rgba(100,249,179,1) 100%);
-}
-
 .vertical-center{
 	position: absolute;
 	top: 50%;
@@ -64,10 +33,6 @@ iframe{
 	text-align: center;
 	font-size: 9vw; 
 	color: #f5f2d0;
-}
-
-.container {
- 	position: relative;
 }
 
 .center{
@@ -83,49 +48,6 @@ iframe{
 	font-size: 2vw; 
 	text-decoration: none;
 	margin-bottom: 2vw;
-}
-
-.start {
-	font-size: 5vw;
-	justify-content: center;
-	display: flex;
-	font-family: 'Muli', sans-serif;
-	color: black;
-}
-
-.end {
-	font-size: 3.25vw;
-	justify-content: center;
-	display: flex;
-	font-family: 'Muli', sans-serif;
-	color: black;
-}
-
-.grid{
-	padding-top: 20px;
-	flex-wrap: wrap;
-	justify-content: center;
-	display: flex;
-	font-family: 'Muli';
-	color: black;
-}
-
-.games-faq{
-	border-style: solid;
-	text-align: center;
-	margin: 0.5vw;
-	max-height: 800px;
-	max-width: 475px;
-	width: 50%;
-	display: inline-block;
-}
-.specs {
-	text-align: center;
-	margin: 0.5vw;
-	max-height: 800px;
-	max-width: 475px;
-	width: 50%;
-	display: inline-block;
 }
 
 .navbar-links{
@@ -145,4 +67,3 @@ iframe{
 	margin: auto;
 	margin-bottom: 20px;
 }
-
