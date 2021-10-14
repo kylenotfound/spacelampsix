@@ -5,17 +5,13 @@
 a + a {
 	margin-left: 15px;
 	text-decoration: none;
-  }
+}
   
 html , body{
 	font-family: 'Maven Pro'; 
 	scroll-behavior: smooth;
 	background: rgb(207,120,224);
 	background: linear-gradient(90deg, rgba(207,120,224,1) 25%, rgba(100,249,179,1) 100%);
-}
-
-iframe{
-	display: block;
 }
 
 #title {
