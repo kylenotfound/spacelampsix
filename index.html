@@ -1,206 +1,341 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Spacelampsix FAQ</title>
-    <link rel="stylesheet" type="text/css" href="twitch.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet" />
-    <link rel="shortcut icon" type="image/png" href="twitch_photos/favicon.png" />
-    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet" />
-    <meta charset="utf-8" />
-  </head>
-  <body>
-    <div id="header" style="position: relative;">
-      <div id="title">
-        <div class="navbar-links">
-          <a href="https://twitch.tv/spacelampsix" style="font-size: 30px; color: purple;"><b>Twitch</b></a>
-          <a href="https://twitter.com/spacelampsix" style="color: #00acee;">Twitter</a>
-          <a href="https://www.youtube.com/channel/UCZJal_mY7laq3UUk9QjJPqw/featured" style="color: red;">Youtube</a>
-          <a href="downloads.html" style="color: #259838;">Downloads</a>
-          <a href="https://www.youtube.com/watch?v=INufqPgemSM" style="color:hotpink;">Setup Tour</a>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSRF Token -->
+        <title>SpacelampsixBlog</title>
+        <!-- Scripts -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <script src="https://kit.fontawesome.com/07b7751319.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Nunito&display=swap" rel="stylesheet">
+        <!-- Styles -->
+    </head>
+    <body  style="background: #da71cc" >
+        <div id="app">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a href="https://slsb.test/home" class="navbar-brand mx-2" title="" data-bs-toggle="tooltip" data-bs-placement="right">
+                    <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/d58f3f38-0663-4780-916e-db6e0a164f31-profile_image-70x70.png" height="35" width="35"/>
+                    </a>
+                    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item active">
+                                <a href="downloads.html" class="nav-link text-white m-2">
+                                <i class="fa fa-file-download fa-2xl"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <main class="py-4">
+                <div class="container justify-content-center">
+                    <div class="col d-flex justify-content-center">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 mb-2">
+                            <div class="card shadow px-3 pb-3 pt-1 rounded border border-3 border-dark">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col text-end">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <img 
+                                            src="https://static-cdn.jtvnw.net/jtv_user_pictures/d58f3f38-0663-4780-916e-db6e0a164f31-profile_image-300x300.png" 
+                                            class="rounded-circle border border-5 border-dark" 
+                                            width="110"
+                                            />
+                                        <div class="mt-3">
+                                            <div class="row d-flex">
+                                                <div class="col-auto px-1">
+                                                    <div class="row d-flex">
+                                                        <div class="col-auto mr-0 pr-0">
+                                                            <h3 class="mx-2">spacelampsix</h3>
+                                                        </div>
+                                                        <div class="col-auto pt-1 mt-1 px-1">
+                                                            <i class="fa-solid fa-check-circle"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row d-flex">
+                                                <div class="col-auto pb-1">
+                                                    <span class="fw-bold"> </span>
+                                                </div>
+                                            </div>
+                                            <div class="row d-flex">
+                                                <div class="col-auto">
+                                                    <span>Joined: 3 months ago</span>
+                                                </div>
+                                            </div>
+                                            <section>
+                                                <followcounter
+                                                    followers-count="0"
+                                                    following-count="1"
+                                                    followers-list="https://slsb.test/spacelampsix/followers"
+                                                    following-list="https://slsb.test/spacelampsix/following"
+                                                    />
+                                            </section>
+                                            <hr>
+                                            <p class="mb-2">Hi my name is Kyle and I am a variety streamer that likes to play survival based exploration and adventure games as well as nintendo titles. I stream solo playthroughs and with friends! I am live 4 to 5 nights a week here, thanks for checking out the channel!</p>
+                                        </div>
+                                    </div>
+                                    <hr class="my-4">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col mx-2 p-0">
+                                            <likecounter like-count="0"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 mb-2">
+                            <div class="card shadow p-3 rounded border border-3 border-dark">
+                                <div class="container mt-4">
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-bs-toggle="tab" href="#tab_1">
+                                            spacelampsix&#039;s posts
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" href="#tab_2">
+                                            Favorite Games
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" href="#tab_3">
+                                            PC Specs
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" href="#tab_4">
+                                            Socials
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div class="tab-pane container fade show active" id="tab_1">
+                                            <div class="parent-post-container mt-4">
+                                                <div class="row">
+                                                    <div class="col-md-8 mb-4">
+                                                        <div class="card">
+                                                            <div class="card-body">
+                                                                <h3 class="card-title">Hi There!</h3>
+                                                                <h6 class="card-subtitle mb-2 text-muted" title="Sep-15-2023 05:19:27 EDT">1 month ago</h6>
+                                                                <a href="https://slsb.test/post/10" style="text-decoration: none;">Read More ...</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container fade" id="tab_2" style="max-height: 550px; overflow-y: auto;">
+                                            <div class="parent-favorite-games-container">
+                                                <div class="row">
+                                                </div>
+                                                <div class="row">
+                                                    <div class="row">
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/28587-285x380.jpg" alt="Animal Crossing: New Leaf" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/32399-285x380.jpg" alt="Counter-Strike" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/130942-285x380.jpg" alt="Factorio" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/18846-285x380.jpg" alt="Garry's Mod" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/24193-285x380.jpg" alt="Left 4 Dead 2" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/27471-285x380.jpg" alt="Minecraft" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/494925-285x380.jpg" alt="Raft" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/14766-285x380.jpg" alt="Super Mario Galaxy" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/493997-285x380.jpg" alt="Super Mario Odyssey" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/7022-285x380.jpg" alt="The Forest" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/418016-285x380.jpg" alt="The Long Dark" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                        <div class="col-auto">
+                                                            <!-- <h5>{{ this.gamename }}</h5> --><img class="border border-2 border-dark mb-2" src="https://static-cdn.jtvnw.net/ttv-boxart/67637-285x380.jpg" alt="Until Dawn" width="142" height="190"><!-- For an unauthenticated user, profileusername is set, and authusername is null --><!--v-if-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container fade mt-2 p-2" id="tab_3" style="max-height: 500px; overflow-y: auto;">
+                                            <div class="row">
+                                                <div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>CPU</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/1.png" alt="CPU" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>i9 11900k</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>GPU</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/2.png" alt="GPU" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>ZOTAC GeForce RTX 3060</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>RAM</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/3.png" alt="RAM" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>16 GB DDR4</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>PSU</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/4.png" alt="PSU" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>850W Seasonic PSU</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>Storage</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/5.png" alt="Storage" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>1TB Samsung Sata SSD</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>Storage</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/5.png" alt="Storage" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>1TB WD Blue HDD</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>Storage</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/5.png" alt="Storage" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>2TB WD Blue HDD</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>Keyboard</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/9.png" alt="Keyboard" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>Varmilo VA87M Cherry MX Pink</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>Mouse</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/10.png" alt="Mouse" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>Corsair Harpoon</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-auto mb-4 pb-2">
+                                                        <div>
+                                                            <h5>Headphones</h5>
+                                                            <div class="col-md-4">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend m-2"><span class="input-group-text"><img src="img/11.png" alt="Headphones" style="max-width: 75px; max-height: 75px;"><span class="mx-2" style="font-size: 2vh;"><b>Corsair Virtuoso Pro Wireless</b></span></span></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane container fade" id="tab_4">Links</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="col-lg-12 border border-3 border-dark mt-2 mb-2 rounded" style="max-height: 600px;">
+                                <div class="card overflow-auto"  style="max-height: 575px;" >
+                                    <!-- Post Title Bar -->
+                                    <section class="card-header">
+                                        <div class="row">
+                                            <div class="col-md-10 d-flex justify-content-start">
+                                                <h1 class="mb-0 mt-3">Hi There!  &#128204; </h1>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-end">
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- Markdown content -->
+                                    <section class="card-body overflow-auto mb-2">
+                                        <p>This is a static version of the new website I am building. Maybe one day I'll finish it.</p>
+                                        <p>The source code for the non-static site is here: <a href="https://github.com/kylenotfound/slsb">https://github.com/kylenotfound/slsb</a></p>
+                                        <p>Some of the buttons and links on this page may not work. Just ignore any errors.</p>
+                                    </section>
+                                    <!-- footer -->
+                                    <section class="card-footer">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="justify-content-start">
+                                                <likecounter
+                                                    like-count="0"
+                                                    />
+                                            </div>
+                                            <div class="justify-content-end">
+                                                <a href="https://slsb.test/post/10" class="btn btn-primary border border-2 border-dark rounded-pill shadow-none mb-0">
+                                                <i class="fa-sharp fa-solid fa-comments"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
-        <div class="vertical-center">
-          <span><b>spacelampsix</b></span>
-        </div>
-      </div>
-    </div>
-    </br>
-    <div class="container d-flex">
-      <div class="card bg-secondary text-center">
-        <div class="card bg-secondary mb-3">
-          <div class="card-body">
-            <h2 class="card-title">Games I Play</h2>
-            <div class="card bg-dark mb-3"">
-              <div class="card-header text-white">
-                Survival Based/Sandbox/Adventure
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">
-                  Minecraft, Terraria, Forager, Stardew Valley, The Forest, Raft, Starbound, Astroneer, The Long Dark
-                </li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3"">
-              <div class="card-header text-white">
-                Steam Titles
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">
-                  Among Us, 60 Seconds, Cities Skylines, Fall Guys, Garry's Mod, Left for dead, Portal,
-                  Powerwash Simulator, Civ V, Swords n' Magic and Stuff, Uno, Teardown, It takes Two & More
-                </li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3"">
-              <div class="card-header text-white">
-                Nintendo Titles
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">
-                  Super Mario Odyssey, Animal Crossing New Horizons, Mario kart 8 Deluxe, Super Mario 3D Allstars,
-                  Super Paper Mario The Origami King, & More 
-                </li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3"">
-              <div class="card-header text-white">
-                Variety
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">
-                  Jigsaw puzzles, Lego Builds, Just Chatting & More
-                </li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3"">
-              <div class="card-header text-white">
-                Games I don't play
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">
-                  Roblox, Fortnite, Apex Legends, Valorant, Rocket League
-                </li>
-              </ul>
-              <p class="card-text"><small class="text-muted">Please stop asking me</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="card bg-secondary mb-3">
-          <div class="card-body">
-            <h2 class="card-title">My Setup</h2>
-            <div class="card bg-dark mb-3"">
-              <div class="card-header text-white">
-                My PC
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">Processor: Intel i7 8700</li>
-                <li class="list-group-item bg-transparent">CPU Cooler: Be Quiet BK002 Shadow Rock LP</li>
-                <li class="list-group-item bg-transparent">MotherBoard: Gigabyte GA-B360M-DS3H</li>
-                <li class="list-group-item bg-transparent">Ram: 16 GB DDR4</li>
-                <li class="list-group-item bg-transparent">Graphics Card: Zotac RTX 3060 GPU</li>
-                <li class="list-group-item bg-transparent">Power Supply: Seasonic 750W 80+ Gold PSU</li>
-                <li class="list-group-item bg-transparent">Storage: Samsung 1TB SSD, WD 1TB & 2TB HDD</li>
-                <li class="list-group-item bg-transparent">Case: Corsair Air 240</li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3"">
-              <div class="card-header text-white">
-                My Gear
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">Microphone: Blue Yeti Blackout</li>
-                <li class="list-group-item bg-transparent">Webcam: Logitec C920 HD 1080p</li>
-                <li class="list-group-item bg-transparent">Headset: Corsair Virtuoso</li>
-                <li class="list-group-item bg-transparent">Monitors: Acer Gaming Monitor 27" Curved 1080p 144Hz Asus 21.5" Monitor 1080p 60Hz</li>
-                <li class="list-group-item bg-transparent">Keyboard: Varmilo VA87M (Cherry MX silent Red)</li>
-                <li class="list-group-item bg-transparent">Mouse: Corsair Harpoon (Wired)</li>
-                <li class="list-group-item bg-transparent">Capture Card: Elgato HD60S</li>
-                <li class="list-group-item bg-transparent">VR Headset: Asus Windows Mixes Reality Headset</li>
-                <li class="list-group-item bg-transparent">Phone: Samsung Galaxy S9</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="card bg-secondary mb-3 p-2">
-          <div class="card-body">
-            <h2 class="card-title">FAQ</h2>
-            <div class="card bg-dark mb-3">
-              <div class="card-header text-white">
-                How old are you?
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">I'm 21</li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3">
-              <div class="card-header text-white">
-                Are you in school?
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">Yes, I study computer science.</li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3">
-              <div class="card-header text-white">
-                Do you have merch?
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">No, and won't have any any time soon.</li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3">
-              <div class="card-header text-white">
-                How long have you been streaming?
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">I have been streaming since January 2019, and I have been an affiliate since April 14 2019.</li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3">
-              <div class="card-header text-white">
-                What is your favorite game?
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">Minecraft, The Forest, Animal Crossing or Super Mario Galaxy 1.</li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3">
-              <div class="card-header text-white">
-                What software do you use to stream? 
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">I use OBS Studio to stream, Fossabot to manage my twitch chat, Streamlabels to update new subs, etc. And Elgato Capture for streaming my nintendo switch.</li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3">
-              <div class="card-header text-white">
-                What is your stream schedule? 
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">Currently I stream 4 days a week (Sun, Tues, Thu & Fri)</li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3">
-              <div class="card-header text-white">
-                Who are your mods?
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">Discord: shaniarob, gabrieldontsnap, kostacakes, celestialstudios</li>
-                <li class="list-group-item bg-transparent">Twitch: shaniarob, gabrieldontsnap, tisokiix, celestialstudios</li>
-              </ul>
-            </div>
-            <div class="card bg-dark mb-3">
-              <div class="card-header text-white">
-                Have another question?
-              </div>
-              <ul class="list-group list-group-flush bg-dark mb-3 text-white">
-                <li class="list-group-item bg-transparent">Feel free to ask me in chat!</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
